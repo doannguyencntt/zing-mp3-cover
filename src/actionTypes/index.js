@@ -1,0 +1,86 @@
+// player
+export const GET_PLAYER = 'GET_PLAYER'
+
+export const HANDLE_STATE = 'HANDLE_STATE'
+export const SET_STATE = 'SET_STATE'
+
+export const SET_CURRENT_SONG = 'SET_CURRENT_SONG'
+export const GET_CURRENT_SONG = 'GET_CURRENT_SONG'
+export const ASSIGN_CURRENT_SONG = 'ASSIGN_CURRENT_SONG'
+
+export const SONG_PLAYING = 'SONG_PLAYING'
+export const SET_PLAYING = 'SET_PLAYING'
+export const GET_PLAYING = 'GET_PLAYING'
+
+export const SONG_PROGRESS = 'SONG_PROGRESS'
+export const SET_PROGRESS = 'SET_PROGRESS'
+export const GET_PROGRESS = 'GET_PROGRESS'
+
+export const VOLUME_SONG = 'VOLUME_SONG'
+export const GET_VOLUME = 'GET_VOLUME'
+export const SET_VOLUME = 'SET_VOLUME'
+
+export const FETCH_STREAMING = 'FETCH_STREAMING'
+export const SET_STREAMING = 'SET_STREAMING'
+export const GET_SOURCE = 'GET_SOURCE'
+
+export const FETCH_PLAY_LIST = 'LOAD_PLAY_LIST'
+export const SET_PLAY_LIST = 'SET_PLAY_LIST'
+export const GET_PLAY_LIST = 'GET_PLAY_LIST'
+
+export const LOAD_HOWL = 'LOAD_HOWL'
+export const SET_HOWL = 'SET_HOWL'
+export const GET_HOWL = 'GET_HOWL'
+
+export const DURATION_SONG = 'DURATION_SONG'
+export const SET_DURATION = 'SET_DURATION'
+export const GET_DURATION = 'GET_DURATION'
+
+export const GET_AUTO_LOAD_SONG = 'GET_AUTO_LOAD_SONG'
+export const SET_AUTO_LOAD_SONG = 'SET_AUTO_LOAD_SONG'
+export const AUTO_LOAD_SONG = 'AUTO_LOAD_SONG'
+
+export const HANDLE_SONG = 'HANDLE_SONG'
+
+export const GET_CURRENT_TIME = 'GET_CURRENT_TIME'
+
+export const GET_SHUFFLE = 'GET_SHUFFLE'
+export const SET_SHUFFLE = 'SET_SHUFFLE'
+export const IS_SHUFFLE = 'IS_SHUFFLE'
+
+export const GET_QUEUE_PLAY_LIST = 'GET_QUEUE_PLAY_LIST'
+export const SET_QUEUE_PLAY_LIST = 'SET_QUEUE_PLAY_LIST'
+export const QUEUE_PLAY_LIST = 'QUEUE_PLAY_LIST'
+
+export const GET_RECENT_ITEMS = 'GET_RECENT_ITEMS'
+export const SET_RECENT_ITEMS = 'SET_RECENT_ITEMS'
+export const RECENT_ITEMS = 'RECENT_ITEMS'
+
+export const GET_LIST_SONG_CURRENT = 'GET_LIST_SONG_CURRENT'
+export const SET_LIST_SONG_CURRENT = 'SET_LIST_SONG_CURRENT'
+
+export const SET_SEEK = 'SET_SEEK'
+export const GET_SEEK = 'GET_SEEK'
+
+export const FETCH_LYRIC_URL = 'FETCH_LYRIC_URL'
+export const SET_LYRIC_URL = 'SET_LYRIC_URL'
+export const GET_LYRIC_URL = 'GET_LYRIC_URL'
+
+export const FETCH_LYRIC = 'LOAD_LYRIC'
+export const SET_LYRIC = 'SET_LOAD_LYRIC'
+export const GET_LYRIC = 'GET_LOAD_LYRIC'
+
+export const SET_SENTENCES = 'SET_SENTENCES'
+export const GET_SENTENCES = 'GET_SENTENCES'
+
+export const SET_MV_URL = 'SET_MV_URL'
+export const GET_MV_URL = 'GET_MV_URL'
+export const HANDLE_URL_MV = 'GET_MV_URL'
+
+export const IS_SHOW_MV = 'IS_SHOW_MV'
+export const GET_SHOW_MV = 'GET_SHOW_MV'
+export const SET_SHOW_MV = 'SET_SHOW_MV'
+
+export const HANDLE_SHOW_KARAORE = 'HANDLE_SHOW_KARAORE'
+export const GET_SHOW_KARAORE = 'GET_SHOW_KARAORE'
+export const SET_SHOW_KARAORE = 'SET_SHOW_KARAORE'

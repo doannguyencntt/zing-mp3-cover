@@ -1,0 +1,276 @@
+@import 'mixins/theme';
+
+:root {
+  @include schema-generator(
+    $primary: #7200a1,
+    $background: #fff,
+    $sidebar-bg: #f2f2f2,
+    $alpha-bg: rgba(0,0,0,0.05),
+    $highlight: #fff,
+    $text-primary: #444,
+    $text-secondary: #32323D,
+    $boder-color: rgba(0, 0, 0, 0.1),
+    $tab-active: #fff,
+    $banner-home-dot: #727171,
+    $sticky-header-box-shadow: rgba(0,0,0,0.08),
+    $progress: #7200a1,
+    $progress-bg: rgba(71, 66, 66, 0.45),
+  );
+}
+
+[data-theme='dark'] {
+  @include schema-generator(
+    $primary: #7200a1,
+    $background: #170f23,
+    $sidebar-bg: hsla(0,0%,100%,0.05),
+    $alpha-bg: hsla(0, 0%, 100%, 0.1),
+    $highlight: #fff,
+    $text-primary: #fff,
+    $text-secondary: #dadada,
+    $boder-color: rgba(255, 255, 255, 0.1),
+    $tab-active: hsla(0,0%,100%,0.3),
+    $banner-home-dot: #d8d8d8,
+    $sticky-header-box-shadow: rgba(0,0,0,0.08),
+    $progress: #fff,
+    $progress-bg: rgba(71, 66, 66, 0.45),
+    $logo: 'dark',
+  );
+  .controls {
+    button {
+      color: var(--text-primary) !important;
+    }
+  }
+  .carousel-title,
+  .recently-title {
+    color: #F4F5F7 !important;
+  }
+  .artists {
+    a {
+      color: #F4F5F7;
+    }
+    
+  }
+  .card {
+    .title {
+      color: #F4F5F7 !important;
+    }
+  }
+}
+
+[data-theme='ji-chang-wook'] {
+  @include schema-generator(
+    $primary: #7200a1,
+    $background: #B3D8DB,
+    $sidebar-bg: rgba(255, 255, 255, .1),
+    $alpha-bg: rgba(255, 255, 255, .1),
+    $highlight: #D1EDF0,
+    $text-primary: #1F5A93,
+    $text-secondary: #32323D,
+    $boder-color: rgba(0, 0, 0, 0.1),
+    $tab-active: #fff,
+    $banner-home-dot: #727171,
+    $sticky-header-box-shadow: rgba(0,0,0,0.08),
+    $progress: #7200a1,
+    $progress-bg: rgba(71, 66, 66, 0.45),
+  );
+  .default-layout {
+    background-size: 1920px auto;
+    background-repeat: repeat;
+    background-image: url(https://zmp3-static.zmdcdn.me/skins/zmp3-v6.1/images/theme-background/ji-chang-wook.jpg);
+  }
+  .is-sticky {
+    box-shadow: 0 3px 5px rgba(0,0,0,0.08);
+  }
+}
+
+[data-theme='ui'] {
+  @include schema-generator(
+    $primary: #7200a1,
+    $background: #E6E1DE,
+    $sidebar-bg: rgba(255, 255, 255, .1),
+    $alpha-bg: rgba(255, 255, 255, .1),
+    $highlight: #D1EDF0,
+    $text-primary: #AC3E82,
+    $text-secondary: #32323D,
+    $boder-color: rgba(0, 0, 0, 0.1),
+    $tab-active: #fff,
+    $banner-home-dot: #727171,
+    $sticky-header-box-shadow: rgba(0,0,0,0.08),
+    $progress: #7200a1,
+    $progress-bg: rgba(71, 66, 66, 0.45),
+  );
+  .search {
+    &:focus-within {
+      background: #EFEDEB !important;
+    }
+  }
+  .default-layout {
+    background-size: 1920px auto;
+    background-repeat: repeat;
+    background-image: url(https://zmp3-static.zmdcdn.me/skins/zmp3-v6.1/images/theme-background/iu.jpg);
+  }
+  .is-sticky {
+    box-shadow: 0 3px 5px rgba(0,0,0,0.08);
+  }
+}
+
+[data-theme='lisa'] {
+  @include schema-generator(
+    $primary: #7200a1,
+    $background: #F2DDD8,
+    $sidebar-bg: rgba(255, 255, 255, .1),
+    $alpha-bg: rgba(255, 255, 255, .1),
+    $highlight: #D1EDF0,
+    $text-primary: #CC3373,
+    $text-secondary: #32323D,
+    $boder-color: rgba(0, 0, 0, 0.1),
+    $tab-active: #fff,
+    $banner-home-dot: #727171,
+    $sticky-header-box-shadow: rgba(0,0,0,0.08),
+    $progress: #7200a1,
+    $progress-bg: rgba(71, 66, 66, 0.45),
+  );
+  .search {
+    &:focus-within {
+      background: #F9E6E2 !important;
+    }
+  }
+  .default-layout {
+    background-size: 1920px auto;
+    background-repeat: repeat;
+    background-image: url(https://zmp3-static.zmdcdn.me/skins/zmp3-v6.1/images/theme-background/lisa.jpg);
+  }
+  .is-sticky {
+    box-shadow: 0 3px 5px rgba(0,0,0,0.08);
+  }
+}
+
+[data-theme='jennie'] {
+  @include schema-generator(
+    $primary: #7200a1,
+    $background: #BBB9C4,
+    $sidebar-bg: rgba(255, 255, 255, .1),
+    $alpha-bg: rgba(255, 255, 255, .1),
+    $highlight: #D1EDF0,
+    $text-primary: #2A5E6B,
+    $text-secondary: #32323D,
+    $boder-color: rgba(0, 0, 0, 0.1),
+    $tab-active: #fff,
+    $banner-home-dot: #727171,
+    $sticky-header-box-shadow: rgba(0,0,0,0.08),
+    $progress: #7200a1,
+    $progress-bg: rgba(71, 66, 66, 0.45),
+  );
+  .search {
+    &:focus-within {
+      background: #CAC6DD !important;
+    }
+  }
+  .default-layout {
+    background-size: 1920px auto;
+    background-repeat: repeat;
+    background-image: url(https://zmp3-static.zmdcdn.me/skins/zmp3-v6.1/images/theme-background/jennie.jpg);
+  }
+  .is-sticky {
+    box-shadow: 0 3px 5px rgba(0,0,0,0.08);
+  }
+}
+
+[data-theme='jisoo'] {
+  @include schema-generator(
+    $primary: #7200a1,
+    $background: #FFFFFF,
+    $sidebar-bg: rgba(255, 255, 255, .1),
+    $alpha-bg: rgba(255, 255, 255, .1),
+    $highlight: #D1EDF0,
+    $text-primary: #8D22C3,
+    $text-secondary: #32323D,
+    $boder-color: rgba(0, 0, 0, 0.1),
+    $tab-active: #fff,
+    $banner-home-dot: #727171,
+    $sticky-header-box-shadow: rgba(0,0,0,0.08),
+    $progress: #7200a1,
+    $progress-bg: rgba(71, 66, 66, 0.45),
+  );
+  .search {
+    &:focus-within {
+      background: #FFFFFF !important;
+    }
+  }
+  .default-layout {
+    background-size: 1920px auto;
+    background-repeat: repeat;
+    background-image: url(https://zmp3-static.zmdcdn.me/skins/zmp3-v6.1/images/theme-background/jisoo.jpg);
+  }
+  .is-sticky {
+    box-shadow: 0 3px 5px rgba(0,0,0,0.08);
+  }
+}
+
+[data-theme='rose'] {
+  @include schema-generator(
+    $primary: #7200a1,
+    $background: #061D4F,
+    $sidebar-bg: rgba(255, 255, 255, .1),
+    $alpha-bg: rgba(255, 255, 255, .1),
+    $highlight: #1F3461,
+    $text-primary: #F4F5F7,
+    $text-secondary: #DADADA,
+    $boder-color: rgba(0, 0, 0, 0.1),
+    $tab-active: #fff,
+    $banner-home-dot: #727171,
+    $sticky-header-box-shadow: rgba(0,0,0,0.08),
+    $progress: #7200a1,
+    $progress-bg: rgba(71, 66, 66, 0.45),
+  );
+  .controls {
+    button {
+      color: var(--text-primary) !important;
+    }
+  }
+  .carousel-title,
+  .recently-title {
+    color: #F4F5F7 !important;
+  }
+  .card {
+    .title {
+      color: #F4F5F7 !important;
+    }
+  }
+  .search {
+    &:focus-within {
+      background: #1A3570 !important;
+    }
+  }
+  .default-layout {
+    background-size: 1920px auto;
+    background-repeat: repeat;
+    background-image: url(https://zmp3-static.zmdcdn.me/skins/zmp3-v6.1/images/theme-background/rose.jpg);
+  }
+  .is-sticky {
+    box-shadow: 0 3px 5px rgba(0,0,0,0.08);
+  }
+  figure {
+    &.active {
+      border-color: #3560F5 !important;
+      
+      .themes__icon-check-active {
+        width: 20px;
+        height: 20px;
+        background: #3560F5 !important;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        border-radius: 50%;
+        .ic-check {
+          color: #fff !important;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
